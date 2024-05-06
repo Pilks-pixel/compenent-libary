@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  --Grey:#F3F4F6;
+  --Red:#FEE2E2;
+  --Yellow:#FEF3C7;
+  --Green:#D1FAE5;
+  --Blue:#DBEAFE;
+  --Indigo:#E0E7FF;
+  --Purple:#5B21B6;
+  --Pink:#FCE7F3;
+}
+
+
+
+/* ========
+badges
+======== */
+/* type */
+.badge--square {
+  border-radius: 4px;
+} 
+
+.badge--pill {
+  border-radius: 12px;
+}
+
+/* colour */
+.badge--grey {
+  background-color: var(--Grey);
+  color: #1F2937;
+}
+
+.badge--red {
+  background-color: var(--Red);
+  color: #991B1B;
+}
+
+.badge--yellow {
+  background-color: var(--Yellow);
+  color: #92400E;
+}
+
+.badge--green {
+  background-color: var(--Green);
+  color: #065F46;
+}
+
+.badge--blue {
+  background-color: var(--Blue);
+  color: #1E40AF;
+}
+
+.badge--indigo {
+  background-color: var(--Indigo);
+  color: #3730A3;
+}
+
+.badge--purple {
+  background-color: var(--Purple);
+  color: #5B21B6;
+}
+
+.badge--pink {
+  background-color: var(--Pink);
+  color: #9D174D;
+}
